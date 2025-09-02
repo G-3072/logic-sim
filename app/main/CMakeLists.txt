@@ -7,8 +7,9 @@ add_executable(${TARGET_NAME}
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
 
 target_link_libraries(${TARGET_NAME}
-    GUI.lib
-    Qt5::Widgets
+    SIMULATION.lib
+    # GUI.lib
+    # Qt5::Widgets
 )
 
 target_include_directories(${TARGET_NAME}

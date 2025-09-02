@@ -1,2 +1,2 @@
 add_subdirectory(main)
-add_subdirectory(GUI)
+# add_subdirectory(GUI)
